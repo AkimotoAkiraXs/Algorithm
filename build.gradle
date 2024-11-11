@@ -34,6 +34,8 @@ dependencies {
     //Jdk8升级为11后 引入hutool的Pair作为代替
     implementation group: 'cn.hutool', name: 'hutool-core', version: '5.8.18'
 
+    // AES对称加密依赖
+    implementation 'org.jasypt:jasypt:1.9.3'
 }
 
 tasks.withType(JavaCompile) {
